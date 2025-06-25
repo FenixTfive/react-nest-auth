@@ -11,7 +11,7 @@ const LoginLayout: React.FC<LayoutProps> = (props) => {
         </div>
       </main>
       <footer className="absolute z-10 bottom-0 left-0 right-0">
-        fenix all rights reserved
+        FenixTfive all rights reserved
       </footer>
     </div>
   );

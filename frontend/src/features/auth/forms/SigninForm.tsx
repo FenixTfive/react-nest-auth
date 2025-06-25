@@ -122,43 +122,11 @@ const SigninForm: React.FC = () => {
                 id="submitLogin"
                 type="submit"
                 className="inline-block w-full px-5 py-2.5 mt-6 mb-2 text-sm font-bold text-center text-white align-middle transition-all ease-in border-0 rounded-lg shadow-md cursor-pointer active:-translate-y-px active:hover:text-white active:text-black hover:-translate-y-px hover:shadow-xs leading-normal tracking-tight-rem bg-150 bg-x-25 bg-blue-500 hover:border-blue-500 hover:bg-blue-500 hover:text-white disabled:opacity-65 disabled:hover:bg-none disabled:active:bg-none"
-                // disabled={loading}
+                disabled={loading}
               >
-                {loading && (
-                  <svg
-                    className="animate-spin h-5 w-5 mr-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <circle
-                      className="opacity-0"
-                      cx="12"
-                      cy="12"
-                      r="10"
-                      stroke="currentColor"
-                      strokeWidth="4"
-                    ></circle>
-                    <path
-                      className="opacity-75 "
-                      fill="currentColor"
-                      d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
-                    ></path>
-                  </svg>
-                )}
                 Sign in
               </button>
             </div>
-            {/* <div className="relative w-full max-w-full px-3 mb-2 text-center shrink-0">
-              <p className="inline mb-2 px-4 text-slate-400 bg-white z-2 text-sm leading-normal font-semibold before:bg-gradient-to-r before:from-transparent before:via-neutral-500/40 before:to-neutral-500/40 before:right-2 before:-ml-1/2 before:content-[''] before:inline-block before:w-3/10 before:h-px before:relative before:align-middle after:left-2 after:-mr-1/2 after:bg-gradient-to-r after:from-neutral-500/40 after:via-neutral-500/40 after:to-transparent after:content-[''] after:inline-block after:w-3/10 after:h-px after:relative after:align-middle">
-                or
-              </p>
-            </div>
-            <div className="text-center">
-              <Link to="/sign-up" 
-                className="inline-block w-full px-5 py-2.5 mt-2 mb-6 text-sm font-bold text-center text-white align-middle transition-all ease-in bg-transparent border-0 rounded-lg shadow-md cursor-pointer active:-translate-y-px hover:-translate-y-px hover:shadow-xs leading-normal tracking-tight-rem bg-150 bg-x-25 bg-gradient-to-tl from-zinc-800 to-zinc-700 hover:border-slate-700 hover:bg-slate-700 hover:text-white"
-              >
-                Sign up
-              </Link>
-            </div> */}
           </form>
         </div>
 

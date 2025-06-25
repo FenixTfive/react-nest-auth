@@ -9,10 +9,7 @@ import {
 } from "react-router-dom";
 import PrivateRoutes from "./PrivateRoutes";
 import Login from "../pages/Login";
-
-const Home: React.FC = () => {
-  return <div>Home Page</div>;
-};
+import Home from "../pages/Home";
 
 export const router = createBrowserRouter(
   createRoutesFromElements(
