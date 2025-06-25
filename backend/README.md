@@ -35,21 +35,21 @@ Replace USER, PASSWORD, and YOUR_DB_NAME with your local PostgreSQL credentials.
 ### 🛠 Database Setup with Prisma
 
 Generate the Prisma client:
-
 npx prisma generate
+
 Apply migrations:
+npx prisma migrate dev
 
-npx prisma migrate dev --name init
 Open Prisma Studio:
-
 npx prisma studio
 
 ### npx prisma studio
 
 🔧 Running the App
-Development:
 
+Development:
 npm run start:dev
+
 Production:
 npm run build
 npm run start:prod
